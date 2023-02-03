@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --btn-color: #1C3F74;
+    --product-categories-color: #0A0A0A;
+    --microsoft-product-color: #7D7D7D;
+    --shop-now-btn: #1C3F74;
+}
+.main-content{
+    width: 100%;
+    height: auto;
+    max-width: 1088px;
+    margin: 0 auto;
+}
+.main-content-items{
+    min-height: 151px;
+    border: 1px solid #D6D6D6;
+    border-radius: 39px;
+    padding:0px 35px 0px 35px;
+    background-color: lightblue;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.main-content-heading{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    order:1;
+}
+.social-media-icons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    order:3;
+    width: 100%;
+}
+.social-media-icons p{
+    text-decoration: underline;
+}
+.main-content-block{
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* Media Queries */
+
+@media (max-width: 575.98px) {
+    .main-content-items{
+        display: block;
+    }
+    .image-content{
+        text-align: center;
+    }
+    .social-media-icons{
+        width: 50%;
+    }
+    .main-content-heading{
+        font-size: 14px;
+    }
+    .social-media-icons p{
+        font-size: 12px;
+    }
+    .main-content-items{
+        padding:0px 24px 18px 23px;
+    }
+    .main-content-block{
+        align-items: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .social-media-icons{
+        width: 50%;
+    }
+    .social-media-icons p{
+        font-size: 12px;
+    }
+    .main-content-items{
+        padding:0px 24px 18px 23px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .social-media-icons{
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .social-media-icons{
+        width: 100%;
+    }
+    .main-content-heading{
+        width: 80%;
+    }
+}
