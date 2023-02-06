@@ -6,12 +6,6 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-:root {
-    --btn-color: #1C3F74;
-    --product-categories-color: #0A0A0A;
-    --microsoft-product-color: #7D7D7D;
-    --shop-now-btn: #1C3F74;
-}
 .main-content{
     width: 100%;
     height: auto;
@@ -23,7 +17,7 @@ body {
     border: 1px solid #D6D6D6;
     border-radius: 39px;
     padding:0px 35px 0px 35px;
-    background-color: lightblue;
+    background-image: linear-gradient(#9cddff, #ffffff);
     margin-top: 50px;
     display: flex;
     align-items: center;
